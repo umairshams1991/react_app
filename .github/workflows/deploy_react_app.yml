@@ -36,4 +36,4 @@ jobs:
       run: npm install -g surge
       
     - name: Deploy to Surge
-      run : surge ./build react_app_piaic58076.surge.sh --token ${{secrets.REACT_TOKEN}}
+      run : surge ./build bootcamp-react-app_umair.surge.sh --token ${{secrets.REACT_TOKEN}}
